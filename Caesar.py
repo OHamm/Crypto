@@ -47,5 +47,5 @@ def caesar_bruteforce(crypt_msg):
 		entry = input("Can you read the message? (y-n)\n")
 		if entry == "y":
 			return message
-	print("This is not a shift left encryption")
+	print("This is not a caesar encryption")
 	return
