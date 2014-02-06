@@ -26,7 +26,7 @@ def vigenere_decode(message, key):
 # The method would be to:
 # First you need to "guess" the key length with math
 # Then, since you know the size of the key, you can "encode" parts of the text with itself
-# which drops the key encoding them. Why? Because of modulo magic of course!
+# which drops the key. Why? Because of modulo magic of course!
 # Finally a frequency analysis should do the trick
 
 # What happens if the key is the size of the message you say?
